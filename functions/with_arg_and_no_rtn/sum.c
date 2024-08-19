@@ -8,7 +8,6 @@ void sum(int num1,int num2)
 	num3=num1+num2;
 	printf("the sum of %d + %d =%d\n",num1,num2,num3);
 }
-#include<stdio.h>
 int main()
 {
 	int a,b;

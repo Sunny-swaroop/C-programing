@@ -12,7 +12,6 @@ int sum() //we will use int when we have return type
 	num3=num1+num2;
 	return num3;
 }
-#include<stdio.h>
 int main()
 {
 	int result;
