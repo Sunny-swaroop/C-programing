@@ -11,7 +11,7 @@ int main()
 {
 	struct emp e[5];
 	int i;
-	printf("enter 10 employee details\n");
+	printf("enter 5 employee details\n");
 	for(i=0;i<5;i++)
 	{
 		printf("id:\n");
