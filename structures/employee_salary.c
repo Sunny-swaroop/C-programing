@@ -23,38 +23,38 @@ int main()
 	if(e.basic<=30000)
 	{
 		e.hra=((float)(e.basic*20)/100);
-        	printf("the hra is %f\n",e.hra);
+        	printf("the hra is %.2f\n",e.hra);
         	e.da=((float)(e.basic*10)/100);
-        	printf("the DA is %f\n",e.da);
+        	printf("the DA is %.2f\n",e.da);
         	e.itax=((float)(e.basic*5)/100);
-        	printf("the income tax is %f\n",e.itax);
+        	printf("the income tax is %.2f\n",e.itax);
 	}
 	else if(e.basic<=50000)
 	{
 		 e.hra=((float)(e.basic*25)/100);
-        	 printf("the hra is %f\n",e.hra);
+        	 printf("the hra is %.2f\n",e.hra);
         	 e.da=((float)(e.basic*15)/100);
-        	 printf("the DA is %f\n",e.da);
+        	 printf("the DA is %.2f\n",e.da);
                  e.itax=((float)(e.basic*10)/100);
-       		 printf("the income tax is %f\n",e.itax);
+       		 printf("the income tax is %.2f\n",e.itax);
 	}
 	else if(e.basic<=100000)
 	{
 		 e.hra=((float)(e.basic*35)/100);
-	         printf("the hra is %f\n",e.hra);
+	         printf("the hra is %.2f\n",e.hra);
 	         e.da=((float)(e.basic*20)/100);
-        	 printf("the DA is %f\n",e.da);
+        	 printf("the DA is %.2f\n",e.da);
         	 e.itax=((float)(e.basic*15)/100);
-        	 printf("the income tax is %f\n",e.itax);
+        	 printf("the income tax is %.2f\n",e.itax);
 	}
 	else if(e.basic>100000)
 	{
 		 e.hra=((float)(e.basic*40)/100);
-	         printf("the hra is %f\n",e.hra);
+	         printf("the hra is %.2f\n",e.hra);
  	         e.da=((float)(e.basic*25)/100);
-	         printf("the DA is %f\n",e.da);
+	         printf("the DA is %.2f\n",e.da);
 	         e.itax=((float)(e.basic*20)/100);
-	         printf("the income tax is %f\n",e.itax);
+	         printf("the income tax is %.2f\n",e.itax);
 	}
 	else
 	{
@@ -63,8 +63,8 @@ int main()
 	}
 	e.gsal=e.basic+e.hra+e.da;
 	e.netsal=e.gsal-e.itax;
-	printf("the gross salary is %f\n",e.gsal);
-	printf("the net salary of employee is %f\n",e.netsal);
+	printf("the gross salary is %.2f\n",e.gsal);
+	printf("the net salary of employee is %.2f\n",e.netsal);
 	return 0;
 }
 
